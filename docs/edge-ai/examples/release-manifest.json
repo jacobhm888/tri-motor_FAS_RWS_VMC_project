@@ -1,0 +1,26 @@
+{
+  "status": "documentation-example",
+  "installable": false,
+  "manifest_schema": "proposal-v1",
+  "release_id": "example-road-student-001",
+  "release_counter": 1,
+  "model_id": "road-context-student",
+  "model_version": "0.1.0-example",
+  "calibration_id": "cal-001-example",
+  "feature_schema_hash": "REQUIRED_PRODUCTION_SHA256",
+  "model_payload_sha256": "NO_PAYLOAD",
+  "calibration_payload_sha256": "NO_PAYLOAD",
+  "compatibility": {
+    "hardware_part": "TBD_EXACT_S32K5_PART",
+    "runtime_build": "TBD_PINNED_BUILD",
+    "vmc_software": "TBD_APPROVED_RELEASE"
+  },
+  "activation": {
+    "initial_mode": "shadow",
+    "condition": "approved_parked_inhibited_state",
+    "atomic_tuple_required": true
+  },
+  "safety_policy_ref": "CONTROLLER_OWNED_POLICY_TBD",
+  "evidence_ref": "NO_VALIDATION_EVIDENCE",
+  "signature": null
+}
